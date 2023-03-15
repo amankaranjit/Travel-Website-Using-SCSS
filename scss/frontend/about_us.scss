@@ -1,0 +1,27 @@
+.about_us{
+    .about_us_wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .about_us_img{
+            figure{
+                width: 70%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .about_us_info{
+            width: 50%;
+            position: absolute;
+            right: 0;
+            background-color: #fff;
+            padding: 8rem;
+            .btn{
+                margin-top: 3rem;
+            }
+        }
+    }
+}

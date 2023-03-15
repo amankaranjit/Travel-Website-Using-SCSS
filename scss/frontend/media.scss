@@ -1,0 +1,145 @@
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .video {
+        .video_wrapper {
+            width: 80%;
+        }
+    }
+
+    .about_us{
+        .about_us_wrapper{
+            flex-direction: column;
+            .about_us_img{
+                figure{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .about_us_info{
+                width: 100%;
+                position: initial;
+                padding: 0;
+            }
+        }
+    }
+    .place_wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .main_menu {
+        padding: 2rem 0;
+    }
+
+    ul.slimmenu li ul {
+        margin-top: 2rem;
+    }
+
+    .about_us {
+        .about_us_wrapper {
+            .about_us_info {
+                padding: 2rem;
+
+                .btn {
+                    margin-top: 3rem;
+                }
+            }
+        }
+    }
+
+    .video {
+        .video_wrapper {
+            width: 70%;
+        }
+    }
+
+    .contact_page {
+        .contact_page_info {
+            padding: 2rem;
+
+            h4 {
+                color: $footer_title;
+                margin-top: 3rem;
+            }
+        }
+
+        .contact_input {
+            padding-left: 0;
+        }
+
+    }
+
+    .trip_fact {
+        padding: 1rem;
+
+        ul {
+            li {
+                strong {
+                    flex: 2;
+                }
+
+                p {
+                    flex: 1;
+                }
+            }
+
+        }
+    }
+
+    .detail_right {
+        padding-left: 0rem;
+    }
+
+    .blog_details {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .detail_right {
+        padding-left: 0;
+    }
+
+    .trip_fact {
+        padding: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 4000px) {}

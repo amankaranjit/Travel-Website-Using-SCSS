@@ -1,0 +1,56 @@
+
+.page_head {
+    display: block;
+    position: relative;
+    .page_head_bg {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        padding: 1.5rem;
+        background-position: center;
+        background-size: cover;
+        .page_head_title{
+            h1{
+                position: relative;
+                color: $white_color;
+            }
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            background-color: $breadcrumb;
+            opacity: 0.8;
+        }
+        .page_head_breadcrumb {
+            position: absolute;
+            bottom: -2.6rem;
+            padding: 2rem 3.5rem;
+            border-radius: 0.2rem;
+            background-color: $theme_color2;
+            z-index: 9999;
+            ul{
+                li{
+                    display: inline-block;
+                    span{
+                        margin-left: 0.5rem;
+                        color: $theme_color1;
+                    }
+                    a{
+                        color: $white_color;
+                        &:hover {
+                            opacity: 0.5;
+                            color: $theme_color1;
+                          }
+                    }
+                }
+            }
+        }
+    }
+}

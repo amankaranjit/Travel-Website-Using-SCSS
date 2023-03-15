@@ -1,0 +1,19 @@
+.place_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 1px;
+    .place_info{
+        flex: 1;
+        .btn{
+            margin-top: 3rem;
+        }
+    }
+    .place_img{
+        flex: 1;
+        img{
+            width: 100%;
+        }
+    }
+}

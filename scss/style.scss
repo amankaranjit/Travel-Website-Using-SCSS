@@ -1,0 +1,64 @@
+// Bootstrap file Need Only //
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/functions";
+
+// 2. Include any default variable overrides here
+@import "bootstrap/variables";
+@import 'frontend/variables';
+
+// 3. Include remainder of required Bootstrap stylesheets
+
+@import "bootstrap/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+@import "bootstrap/bootstrap-utilities.scss";
+@import "bootstrap/dropdown";
+@import "bootstrap/tables";
+@import "bootstrap/modal";
+@import "bootstrap/buttons";
+@import "bootstrap/pagination";
+@import "bootstrap/accordion";
+@import "bootstrap/transitions";
+@import "bootstrap/alert";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/forms";
+@import "bootstrap/nav";
+@import "bootstrap/badge";
+
+
+@import 'frontend/main';
+@import 'frontend/header';
+@import 'frontend/menu';
+@import 'frontend/swiper.scss';
+// @import 'frontend/fancybox.scss';
+@import 'frontend/banner.scss';
+@import 'frontend/destination.scss';
+@import 'frontend/about_us.scss';
+@import 'frontend/video.scss';
+@import 'frontend/place_visit.scss';
+@import 'frontend/review_box.scss';
+@import 'frontend/blogs.scss';
+@import 'frontend/partners.scss';
+@import 'frontend/footer.scss';
+@import 'frontend/breadcrumb.scss';
+@import 'frontend/contact.scss';
+@import 'frontend/gallery.scss';
+@import 'frontend/detailpage.scss';
+
+
+
+@import 'frontend/media';
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+.detail_title{
+    background-color: $theme_color1;
+    padding: 6rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    a{
+        color: $white_color;
+    }
+    
+}
+.box{
+    h3{
+        margin-bottom: 2rem;
+    }
+}
+
+.custom_listing{
+    ul{
+        padding-left: 1.5rem;
+        li{
+            margin-bottom: 1.5rem;
+            list-style: decimal;
+            
+        }
+    }
+    h4{
+        font-size: 1.8rem;
+    }
+}
+
+.detail_title {
+    position: sticky;
+    top: 48px;
+    z-index: 999;
+}
+.trip_fact{
+    position: sticky;
+    top: 200px;
+    z-index: 99;
+    padding: 3rem;
+    border: 1px solid $border_color;
+    ul{
+        li{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $border_color;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+        li:last-child{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+    }
+}
+.detail_right{
+    padding-left: 3rem;
+}
+
+.detail_page{
+    .form-control{
+        height: 45px;
+    }
+}

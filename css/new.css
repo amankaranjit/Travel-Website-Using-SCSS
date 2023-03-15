@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 10px;
+    --theme_color1: #022561;
+    --heading_font: "Titillium Web",
+        sans-serif;
+    --text_font: "Nunito Sans",
+        sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6px;
+    font-weight: 400;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: var(--text_font);
+}
+
+h1 {
+    font-family: var(--heading_font);
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--theme_color1);
+}
+
+h2 {
+    font-family: var(--heading_font);
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--theme_color1);
+}
+
+h3 {
+    font-family: var(--heading_font);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--theme_color1);
+}
+
+h4 {
+    font-family: var(--heading_font);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--theme_color1);
+}
+
+.blog__wrapper {
+    padding: 50px 0;
+}
+
+.blogs .blog_outer {
+    border: 1px solid #e4e1e1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.blogs .blog_box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blogs .blog_box ul {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.blogs .blog_box ul li {
+    display: inline-block;
+    font-size: 14px;
+    border-right: 1px solid #555;
+    margin-right: 10px;
+}
+
+.blogs .blog_box ul li:last-child {
+    border: 0;
+    margin: 0;
+}
+
+.blog_details p {
+    padding: 10px 0;
+    line-height: 1.6;
+}
+
+.list_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-left: 2rem;
+}
+
+.list_wrapper ul {
+    display: flex;
+    margin: 0;
+}
+
+.list_wrapper ul li {
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.list_wrapper h4 {
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+hr {
+    padding: 20px 0;
+}
+
+.cstm_pagination ul {
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.cstm_pagination ul .page-link {
+    font-family: var(--text_font);
+    color: var(--theme_color1);
+    border: 1px solid #dfdfdf;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cstm_pagination ul .page-link:hover {
+    background: var(--theme_color1);
+    color: #fff;
+}
